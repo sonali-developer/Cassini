@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3BA17E9E20B6D23B00608BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA17E9D20B6D23B00608BBB /* AppDelegate.swift */; };
-		3BA17EA020B6D23B00608BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA17E9F20B6D23B00608BBB /* ViewController.swift */; };
 		3BA17EA320B6D23B00608BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA17EA120B6D23B00608BBB /* Main.storyboard */; };
 		3BA17EA520B6D23D00608BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA17EA420B6D23D00608BBB /* Assets.xcassets */; };
 		3BA17EA820B6D23D00608BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA17EA620B6D23D00608BBB /* LaunchScreen.storyboard */; };
+		3BA17EB120B6D33F00608BBB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA17EB020B6D33F00608BBB /* ImageViewController.swift */; };
+		3BA17EB320B6D88A00608BBB /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA17EB220B6D88A00608BBB /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BA17E9A20B6D23B00608BBB /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA17E9D20B6D23B00608BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BA17E9F20B6D23B00608BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BA17EA220B6D23B00608BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BA17EA420B6D23D00608BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA17EA720B6D23D00608BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA17EA920B6D23D00608BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA17EB020B6D33F00608BBB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3BA17EB220B6D88A00608BBB /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		3BA17E9C20B6D23B00608BBB /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				3BA17E9D20B6D23B00608BBB /* AppDelegate.swift */,
-				3BA17E9F20B6D23B00608BBB /* ViewController.swift */,
 				3BA17EA120B6D23B00608BBB /* Main.storyboard */,
-				3BA17EA420B6D23D00608BBB /* Assets.xcassets */,
-				3BA17EA620B6D23D00608BBB /* LaunchScreen.storyboard */,
+				3BA17EB020B6D33F00608BBB /* ImageViewController.swift */,
+				3BA17EB220B6D88A00608BBB /* DemoURLs.swift */,
+				3BA17EAF20B6D2A400608BBB /* SupportingFiles */,
 				3BA17EA920B6D23D00608BBB /* Info.plist */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		3BA17EAF20B6D2A400608BBB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3BA17EA420B6D23D00608BBB /* Assets.xcassets */,
+				3BA17E9D20B6D23B00608BBB /* AppDelegate.swift */,
+				3BA17EA620B6D23D00608BBB /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA17EA020B6D23B00608BBB /* ViewController.swift in Sources */,
+				3BA17EB120B6D33F00608BBB /* ImageViewController.swift in Sources */,
 				3BA17E9E20B6D23B00608BBB /* AppDelegate.swift in Sources */,
+				3BA17EB320B6D88A00608BBB /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
