@@ -26,4 +26,10 @@ struct DemoURLs
         }
         return urls
     }()
+    
+    static var NASA1 = [
+            "Cassini" : "https://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg",
+            "Earth" : "https://www.nasa.gov/sites/default/files/wave_earth_mosaic_3.jpg",
+            "Saturn" : "https://www.nasa.gov/sites/default/files/saturn_collage.jpg"
+        ]
 }
